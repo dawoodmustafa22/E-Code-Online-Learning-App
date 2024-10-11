@@ -25,7 +25,7 @@ class _WishlistScreenState extends State<WishlistScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: Color(0xFF674AEF),
+          backgroundColor: Colors.lightBlue,
           centerTitle: true,
           title: Text(
             'Wishlist',
@@ -53,7 +53,7 @@ class _WishlistScreenState extends State<WishlistScreen> {
               itemCount: wishlistItems.length,
               itemBuilder: (context, index) {
                 return Card(
-                  color: Color(0xFF674AEF),
+                  color: Colors.lightBlue,
                   margin: EdgeInsets.all(16.0),
                   child: ListTile(
                     title: Text(

@@ -26,7 +26,7 @@ class WelcomeScreen extends StatelessWidget {
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height / 1.6,
                   decoration: BoxDecoration(
-                    color: Color(0xFF674AEF),
+                    color: Colors.lightBlueAccent,
                     borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(70),
                     ),
@@ -44,7 +44,7 @@ class WelcomeScreen extends StatelessWidget {
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height / 2.666,
                 decoration: BoxDecoration(
-                  color: Color(0xFF674AEF),
+                  color: Colors.lightBlue[700],
                 ),
               ),
             ),
@@ -96,7 +96,7 @@ class WelcomeScreen extends StatelessWidget {
                           ),
                         ),
                         backgroundColor: WidgetStatePropertyAll(
-                          Color(0xFF674AEF),
+                          Colors.lightBlue,
                         ),
                       ),
                       onPressed: () {

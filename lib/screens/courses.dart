@@ -8,7 +8,7 @@ class BottomCourses extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Courses"),
+        title: Text("Accounts"),
         centerTitle: true,
       ),
       body: Center(

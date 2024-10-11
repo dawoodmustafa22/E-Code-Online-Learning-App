@@ -93,7 +93,7 @@ class HomeContent extends StatelessWidget {
         Container(
           padding: EdgeInsets.symmetric(vertical: 15, horizontal: 15),
           decoration: BoxDecoration(
-            color: Color(0xFF674AEF),
+            color: Colors.lightBlueAccent,
             borderRadius: BorderRadius.only(
               bottomLeft: Radius.circular(20),
               bottomRight: Radius.circular(20),
@@ -113,7 +113,7 @@ class HomeContent extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: 3, bottom: 15),
                 child: Text(
-                  "Hi, Programmer",
+                  "Hi, Dawood",
                   style: GoogleFonts.poppins(
                       fontSize: 25,
                       fontWeight: FontWeight.w600,
@@ -252,7 +252,7 @@ class HomeContent extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            "55 Videos",
+                            "48 Videos",
                             style: GoogleFonts.poppins(
                               fontSize: 15,
                               fontWeight: FontWeight.w500,

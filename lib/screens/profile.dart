@@ -8,7 +8,7 @@ class AccountScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF674AEF),
+        backgroundColor: Colors.lightBlue,
         centerTitle: true,
         title: Text(
           'Profile',
@@ -49,11 +49,11 @@ class AccountScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Shahid Gondal',
+              'Dawood Mustafa',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             Text(
-              'sgondal3770@gmail.com',
+              'dawoodmustafa22@gmail.com',
               style: TextStyle(fontSize: 16, color: Colors.grey),
             ),
             SizedBox(height: 32),
@@ -62,7 +62,7 @@ class AccountScreen extends StatelessWidget {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFF674AEF),
+                        color: Colors.lightBlue,
                         borderRadius: BorderRadius.circular(10)),
                     child: ListTile(
                       leading: Icon(
@@ -90,7 +90,7 @@ class AccountScreen extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFF674AEF),
+                        color: Colors.lightBlue,
                         borderRadius: BorderRadius.circular(10)),
                     child: ListTile(
                       leading: Icon(
@@ -116,7 +116,7 @@ class AccountScreen extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFF674AEF),
+                        color: Colors.lightBlue,
                         borderRadius: BorderRadius.circular(10)),
                     child: ListTile(
                       leading: Icon(
@@ -144,7 +144,7 @@ class AccountScreen extends StatelessWidget {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFF674AEF),
+                        color: Colors.lightBlue,
                         borderRadius: BorderRadius.circular(10)),
                     child: ListTile(
                       leading: Icon(
@@ -157,6 +157,10 @@ class AccountScreen extends StatelessWidget {
                           color: Colors.white,
                           fontSize: 20,
                         ),
+                      ),
+                      trailing: Icon(
+                        Icons.arrow_forward_ios_sharp,
+                        color: Colors.white,
                       ),
                       onTap: () {
                         // Logout action

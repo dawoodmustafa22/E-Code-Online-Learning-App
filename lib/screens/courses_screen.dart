@@ -78,7 +78,7 @@ class _CoursesScreenState extends State<CoursesScreen> {
             ),
             SizedBox(height: 5),
             Text(
-              "Created By Shahid Gondal",
+              "Created By Dawood Mustafa",
               style: GoogleFonts.poppins(
                 fontSize: 16,
                 fontWeight: FontWeight.w500,
